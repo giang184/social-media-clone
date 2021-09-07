@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "./Header";
 import Profile from "./Profile";
+import FeedList from "./FeedList";
+import ContactList from "./ContactList";
 
 function App(){
   return (
@@ -12,10 +14,10 @@ function App(){
             <Profile />
           </div>
           <div className="col-sm">
-            <Feed />
+            <FeedList />
           </div>
-          <div class="col-sm">
-            <Contact />
+          <div className="col-sm">
+            <ContactList />
           </div>
         </div>
       </div>
