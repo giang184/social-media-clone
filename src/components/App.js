@@ -1,13 +1,24 @@
 import React from "react";
 import Header from "./Header";
+import Profile from "./Profile";
 
 function App(){
-  const name = "Thato";
-  const name2 = "Haley";
   return (
     <React.Fragment>
       <Header />
-      <hr/>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm">
+            <Profile />
+          </div>
+          <div className="col-sm">
+            <Feed />
+          </div>
+          <div class="col-sm">
+            <Contact />
+          </div>
+        </div>
+      </div>
     </React.Fragment>
   );
 }

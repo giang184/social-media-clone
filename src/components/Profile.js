@@ -1,9 +1,13 @@
 import React from "react";
+import Title from "./Title";
+import About from "./About";
 
 function Profile(){
   return (
-    <Title />
-    <About />
+    <React.Fragment>
+      <Title />
+      <About />
+    </React.Fragment>
   );
 }
 
